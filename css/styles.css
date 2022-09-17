@@ -11,12 +11,11 @@ body {
 /* -----------------Header------------- */
 
 .header {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #ffffff;
 }
 
-.header-logo,
-.footer-logo {
-  color: rgba(0, 0, 0, 1);
+.header-logo {
+  color: #000000;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -50,6 +49,8 @@ body {
   color: #757575;
 }
 
+.footer-contacts-map:hover,
+.footer-contacts-link:hover,
 .header-email:hover,
 .header-tel:hover {
   color: #2196f3;
@@ -75,11 +76,9 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  background: #2196f3;
 }
 
 .visually-hidden {
@@ -111,6 +110,10 @@ body {
   color: #757575;
 }
 
+.hero-team {
+  background: #f5f4fa;
+}
+
 .hero-example-title,
 .hero-team-title {
   font-weight: 700;
@@ -140,10 +143,16 @@ body {
 
 /* ----------------FOOTER--------------- */
 
-/* .footer-logo logo - перенёс в свойства верхнего лого*/
-
-.footer-contacts {
+.footer {
   background: #2f303a;
+}
+
+.footer-logo {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .footer-contacts {
