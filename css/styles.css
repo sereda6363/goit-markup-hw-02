@@ -50,9 +50,13 @@ body {
 }
 
 .footer-contacts-map:hover,
+.footer-contacts-map:focus,
 .footer-contacts-link:hover,
+.footer-contacts-link:focus,
 .header-email:hover,
-.header-tel:hover {
+.header-email:focus,
+.header-tel:hover,
+.header-tel:focus {
   color: #2196f3;
 }
 /* ----------------HERO---------------- */
