@@ -8,7 +8,7 @@ body {
   list-style: none;
   text-decoration: none;
 }
-/* -----------------Header------------- */
+/* -----------------HEADER------------- */
 
 .header {
   background-color: #ffffff;
@@ -176,4 +176,28 @@ body {
   line-height: 1.71px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* ----------------PORTFOLIO--------------- */
+
+.filter-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: #2196f3;
 }
