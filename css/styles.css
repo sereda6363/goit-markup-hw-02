@@ -1,3 +1,9 @@
+:root {
+  --paragraph-text-color: #757575;
+  --title-text-color: #212121;
+  --aсcent-color: #2196f3;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -31,13 +37,13 @@ body {
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
   cursor: pointer;
 }
 
 .header-link:hover,
 .header-link:focus {
-  color: #2196f3;
+  color: var(--aсcent-color);
 }
 
 .header-email,
@@ -57,7 +63,7 @@ body {
 .header-email:focus,
 .header-tel:hover,
 .header-tel:focus {
-  color: #2196f3;
+  color: var(--aсcent-color);
 }
 /* ----------------HERO---------------- */
 
@@ -82,7 +88,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background: #2196f3;
+  background: var(--aсcent-color);
 }
 
 .visually-hidden {
@@ -104,14 +110,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .hero-text-item {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--paragraph-text-color);
 }
 
 .hero-team {
@@ -125,7 +131,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .hero-team-person {
@@ -134,7 +140,7 @@ body {
   line-height: 1.19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .hero-team-text {
@@ -142,7 +148,7 @@ body {
   line-height: 1.19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--paragraph-text-color);
 }
 
 /* ----------------FOOTER--------------- */
@@ -200,7 +206,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
-  background: #2196f3;
+  background: var(--aсcent-color);
 }
 
 .examples-title {
@@ -208,12 +214,12 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .portfolio-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--paragraph-text-color);
 }
