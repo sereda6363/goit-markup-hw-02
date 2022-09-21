@@ -46,6 +46,10 @@ body {
   color: var(--logo-blue-color);
 }
 
+/* .active {
+  color: var(--aсcent-color);
+} */
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -55,6 +59,7 @@ body {
   cursor: pointer;
 }
 
+.active,
 .header-link:hover,
 .header-link:focus {
   color: var(--aсcent-color);
